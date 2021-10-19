@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <script src="./102.js" defer></script> -->
+    <!-- <script src="./103.js" defer></script> -->
+    <!-- <script src="./104.js" defer></script> -->
+    <!-- <script src="./105.js" defer></script> -->
+    <!-- <script src="./106.js" defer></script> -->
+    <!-- <script src="./107.js" defer></script> -->
+    <!-- <script src="./108.js" defer></script> -->
+    <!-- <script src="./109.js" defer></script> -->
+    <!-- <script src="./110.js" defer></script> -->
+    <!-- <script src="./113.js" defer></script> -->
+    <!-- <script src="./114.js" defer></script> -->
+    <!-- <script src="./115.js" defer></script> -->
+    <!-- <script src="./116.js" defer></script> -->
+    <!-- <script src="./117.js" defer></script> -->
+    <!-- <script src="./118.js" defer></script> -->
+    <!-- <script src="./119.js" defer></script> -->
+    <!-- <script src="./120.js" defer></script> -->
+    <!-- <script src="./121.js" defer></script> -->
+    <!-- <script src="./127.js" defer></script> -->
+    <script src="./129.js" defer></script>
+    <title>My Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <h1 class="logo">Website</h1>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="">Todo</a></li>
+          <li class="nav-item"><a href="">Sign Up</a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h2 id="main-heading">
+          Manage your tasks <span style="display: none">Hello</span>
+        </h2>
+        <button class="btn btn-headline">Learn More</button>
+      </div>
+    </header>
+
+    <section class="section-todo container">
+      <h2>Your plan for today ?</h2>
+      <!-- todo form  -->
+      <form class="form-todo">
+        <input type="text" name="" id="" placeholder="Add Todo" />
+        <input type="submit" value="Add Todo" class="btn" />
+      </form>
+
+      <ul class="todo-list">
+        <li>
+          <span class="text">Do this do that</span>
+          <div class="todo-buttons">
+            <button class="todo-btn done">Done</button>
+            <button class="todo-btn remove">Remove</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section-signup container">
+      <h2>Sign Up</h2>
+      <form class="signup-form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" name="confirmPassword" id="confirmPassword" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="about">About Yourself</label>
+          <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
