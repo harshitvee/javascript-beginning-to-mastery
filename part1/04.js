@@ -1,4 +1,5 @@
 // let keyword 
+// let keyword was introduced in 2015 with the release of ES6 version of Javascript
 // declare variable with let keyword 
 
 let firstName = "harshit";
