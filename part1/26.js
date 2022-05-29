@@ -1,9 +1,9 @@
 // intro to arrays 
-// reference type 
-// all the reference types are known as OBJECTS in JS.
-// how to create arrays
-
-// ordered collection of items 
+  // reference type 
+  // all the reference types are known as OBJECTS in JS.
+  // how to create arrays
+  // arrays are MUTABLE 
+  // Array is an ordered collection of items 
 
 // let fruits = ["apple", "mango", "grapes"];
 // let numbers = [1,2,3,4];
