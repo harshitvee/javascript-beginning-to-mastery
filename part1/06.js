@@ -1,4 +1,5 @@
 // String indexing 
+// strings are IMMUTABLE means these methods will not modify the orignial string.
 
 let firstName = "harshitdfjakldsfdf";
 
