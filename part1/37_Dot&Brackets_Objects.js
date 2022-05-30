@@ -11,5 +11,5 @@
 // }
 
 // console.log(person["person hobbies"]);
-// person[key] = "harshitvashisth@gmail.com";
+// person[key] = "harshitvashisth@gmail.com"; --->> By this method we can make the value of a variable(i.e email) as the key of an object.
 // console.log(person);
