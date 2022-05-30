@@ -25,8 +25,9 @@ const person = {
 // console.log(person["age"]);
 // console.log(person.hobbies);
 
-// how to add key value pair to objects
+// how to add key value pair to objects using dots.
 person.gender="male" // now another key value pair has been added in the object Person.
-
+// how to add key value pair to objects using square brackets.
+    person{[]
 person["person"] = "male";
 console.log(person);
