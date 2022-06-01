@@ -11,5 +11,7 @@
 // }
 
 // console.log(person["person hobbies"]);
-// person[key] = "harshitvashisth@gmail.com"; --->> By this method we can make the value of a variable(i.e email) as the key of an object.
+// person[key] = "harshitvashisth@gmail.com"; --->> By this method we can make the value of a variable(i.e email) as the key of an object. 
+    The step wise functioning of this method i.e. square brackets w/o inv commas is as follows:
+      person[key] => person["email"] => gauravmishra193@gmail.com
 // console.log(person);
