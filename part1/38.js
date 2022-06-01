@@ -18,9 +18,12 @@ There are 2 ways to iterate objects:
         // for(let abc in person){
             // console.log(person[abc]); 
          }   ===> [] gives the value { '.' will also give the value but here 
-//                 in this case we will have to use dot against a particular key to print the 
-// //                  value of that key Eg: person.name will print the value of name key inside the object person.
-
+                     in this case we will have to use dot against a particular key to print the 
+                     value of that key Eg: person.name will print the value of name key inside the object person.
+                    Stepwise evaluation of this square bracket:
+                                      person[abc] => {abc has all the keys given by the for-in loop}
+                                                  => person["name"] => "gaurav"
+                         
     // for(let key in person){
         // console.log(`${key} : ${person[key]}`);
         //  console.log(key," : " ,person[key]);
