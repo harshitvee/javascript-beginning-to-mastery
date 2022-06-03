@@ -30,8 +30,9 @@ There are 2 ways to iterate objects:
         // }
 
 //  2. using Object.keys    
-    // console.log(typeof (Object.keys(person)));
-    // const val = Array.isArray((Object.keys(person)));
+    // console.log(Object.keys(person)); ===> this will print all the keys in the form of an array.
+    // console.log(typeof (Object.keys(person))); ===> this will give output as OBJECT as is given for an array.
+    // const val = Array.isArray((Object.keys(person))); ===> this will print TRUE which  means it is an array.
     // console.log(val);
 
 // for(let key of Object.keys(person)){
