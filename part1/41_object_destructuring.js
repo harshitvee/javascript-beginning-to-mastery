@@ -28,9 +28,10 @@ Another way by Object Destructuring:
   ==> now var1 will have the value of bandNamem and var2 will have the value of famousSong
 
 let { bandName, famousSong, ...restProps } = band;
-    ==> all the other key-value pair of the object band will store in restProps
+    ==> all the other key-value pair of the object band will store in restProps and the output of printing restProp will be in the form of an object.
 
 console.log(bandName); ==> error beacause no variable of this name exist.
 
 console.log(restProps); 
   o/p ==> { year : 1968, anotherSong : "kashmir" }
+  r
