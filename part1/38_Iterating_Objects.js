@@ -9,7 +9,7 @@ There are 2 ways to iterate objects:
 //  1. using for-in loop
 //  2. using Object.keys 
 
-//  1. using for-in loop ===> using for-in loop for object will store the 'keys' of the object in the variable 'key' or whatever var is used.
+//  1. using for-in loop ===> using for-in loop for object will store the 'keys' of the object in the loop variable just like the for-in loop stores indexes in case of iterating and array.
     // for(let key in person){
         // console.log(key); ===> this will print all the keys.
         // }
