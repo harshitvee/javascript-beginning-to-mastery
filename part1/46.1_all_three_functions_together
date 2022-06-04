@@ -1,0 +1,30 @@
+// ALL THE 3 GIVE SAME OUTPUT
+
+// NORMAL FUNCTION:
+
+function sum1(x, y){
+    return x + y;
+}
+
+sumofnum1 = sum1(2 , 25);
+console.log(sumofnum1)
+
+
+// EXPRESSION FUNCTION:
+
+const sum2 = function(g, h){
+    return g + h;
+}
+
+sumofnum2 = sum2(2 , 25);
+console.log(sumofnum2)
+
+
+// ARROW FUNCTION:
+
+const sum3 = (a, b) => {
+    return a + b;
+}
+
+sumofnum3 = sum2(2 , 25);
+console.log(sumofnum3)
