@@ -6,6 +6,7 @@
 const singHappyBirthday = function(){
     console.log("happy birthday to you ......");
 }
+        ==>> this is a variable in which a function has been assigned.
 
 // singHappyBirthday();
 

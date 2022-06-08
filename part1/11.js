@@ -14,8 +14,10 @@
 // bug , error 
 
 // BigInt
-// let myNumber = BigInt(12);
-// let sameMyNumber = 123n;
-// // console.log(myNumber);
-// // console.log(Number.MAX_SAFE_INTEGER);
-// console.log(myNumber+ sameMyNumber);
+  // The 2 methods of declaring and initialising BigInt:
+    // let myNumber = BigInt(12);
+    // let sameMyNumber = 123n;
+  // console.log(myNumber);
+  // console.log(Number.MAX_SAFE_INTEGER);
+  // console.log(myNumber+ sameMyNumber); // BIgInt can only be operated with BigInt datatypes and with no other Datatype.
+

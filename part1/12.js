@@ -10,7 +10,10 @@
 
 // == vs === 
 // console.log(num1 === num2);
+// == can even compare string and number
+// === this would not
 
 // != vs !==
+// same with this
 
 // console.log(num1 !== num2);
