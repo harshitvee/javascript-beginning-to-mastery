@@ -3,7 +3,7 @@
 // toLowerCase()
 // slice()
 
-let firstName = "harshit";
+let firstName = "harshit hi";
 
 // console.log(firstName.length);
 // firstName = firstName.trim(); // "harshit"
@@ -16,5 +16,5 @@ let firstName = "harshit";
 // start index 
 // end index
 
-let newString = firstName.slice(1); // hars
+let newString = firstName.slice(5,10); // hars
 console.log(newString);
