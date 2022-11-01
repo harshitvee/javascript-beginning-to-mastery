@@ -6,6 +6,7 @@ const band = {
   anotherFamousSong: "kashmir",
 };
 
-let { bandName, famousSong, ...restProps } = band;
+let { bandName,famousSong, ...restProps } = band;
 console.log(bandName);
+console.log(famousSong);
 console.log(restProps);
