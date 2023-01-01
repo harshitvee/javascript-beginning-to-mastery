@@ -8,7 +8,7 @@
 var value1 = 2;
 console.log(value1);
 
-// you can use only undersore _ or dollar symbol 
+// you can use only underscore _ or dollar symbol 
 // first_name (valid)
 // _firstname (valid) 
 
