@@ -7,5 +7,6 @@ const users = [
     {userId: 3,firstName: 'nitish', gender: 'male'},
 ]
 for(let user of users){
-    console.log(user.firstName);
+    // console.log(user);
+    console.log(user.userId, user.firstName, user.gender);
 }

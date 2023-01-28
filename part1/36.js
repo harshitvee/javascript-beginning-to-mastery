@@ -10,7 +10,7 @@
 const person = {
     name: "harshit",
     age: 22,
-    hobbies: ["guitar", "sleeping", "listening music"]
+    hobbies: ["guitar", "sleeping", "listening music", "hero"]
 }
 console.log(person);
 
