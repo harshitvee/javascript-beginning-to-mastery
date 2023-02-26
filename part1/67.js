@@ -29,3 +29,6 @@
 // }
 
 // console.log(length);
+
+//for finding length we can also use
+//console.log(st.size)
